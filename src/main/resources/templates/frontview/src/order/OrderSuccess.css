@@ -1,0 +1,45 @@
+
+.order-success-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+
+}
+
+.order-success-header {
+    font-size: 24px;
+    color: #4d5dee;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", system-ui;
+    font-weight: bold;
+}
+
+.order-success-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.return-home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3D52D5;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 8px;
+
+    text-decoration: none;
+
+}
+
+.return-home-link:hover {
+    background-color: #4d5dee;
+    transition:  0.3s ease;
+    border-radius: 10px;
+}
