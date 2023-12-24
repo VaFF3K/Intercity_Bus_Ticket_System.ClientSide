@@ -18,3 +18,18 @@
     font-size: 48px;
     font-family: "JetBrains Mono ExtraBold", system-ui;
 }
+
+.tickets_empty_list {
+    margin-top: 10%;
+    margin-left: 14%;
+    width: 70%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 3px solid #d6dfef;
+    border-radius: 24px;
+    padding: 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

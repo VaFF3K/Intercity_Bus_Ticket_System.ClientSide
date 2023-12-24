@@ -22,16 +22,15 @@ const TicketHistory = () => {
             axios.get(`http://localhost:8080/api/tickets/history/${clientId}`)
                 .then(response => setUserTickets(response.data))
                 .catch(error => console.error('Error fetching ticket history:', error));
-
         console.log(clientId);
-
-        console.log()
     }, [clientId]);
+
 
     return (
         <div>
         <div className="container_ticket">
             <h2 className="ticket_text">Історія придбаних квитків</h2>
+            {userTickets.length > 0 ? (
             <table>
                 <thead>
                 <tr>
@@ -60,6 +59,9 @@ const TicketHistory = () => {
                 ))}
                 </tbody>
             </table>
+            ) : (
+                <p className="tickets_empty_list" >   Немає доступних квитків для відображення.</p>
+            )}
         </div>
         </div>
     );
